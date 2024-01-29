@@ -6,7 +6,7 @@ const db = pgp({
   port: 5432, // Make sure this is the correct port for your PostgreSQL instance
   database: 'immigrantinfo',
   user: 'form_admin',
-  password: 'toothless101',
+  password: '',
 });
 
 module.exports = db;
